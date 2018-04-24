@@ -9,5 +9,13 @@ Libraries and data sources used are: .....
 
 Credits and acknowledgements: ......
 
-is this real life, is this just fantasy?
-no escape from reality
+
+
+## problems I'm running into
+none of my code works
+
+none of the "tips" or "suggestions" within webstorm or on W3 is simple enough for me to understand
+
+coping the code exactly from the example doesn't work
+
+several hours have gone into poking at this, with literally no forward progress
