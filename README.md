@@ -11,11 +11,14 @@ Credits and acknowledgements: ......
 
 
 
-## problems I'm running into
-none of my code works
+### questions
+<ul>
+<li>how do i use the airports.html vs index.html
+<li>how much do i write in main.js vs airports.html
+<li>
 
-none of the "tips" or "suggestions" within webstorm or on W3 is simple enough for me to understand
-
-coping the code exactly from the example doesn't work
-
-several hours have gone into poking at this, with literally no forward progress
+### answers
+<ul>
+<li>
+<li>
+<li>
