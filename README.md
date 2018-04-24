@@ -9,5 +9,16 @@ Libraries and data sources used are: .....
 
 Credits and acknowledgements: ......
 
-is this real life, is this just fantasy?
-no escape from reality
+
+
+### questions
+<ul>
+<li>how do i use the airports.html vs index.html
+<li>how much do i write in main.js vs airports.html
+<li>
+
+### answers
+<ul>
+<li>
+<li>
+<li>
