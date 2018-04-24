@@ -8,7 +8,7 @@ var mymap = L.map('map', {
     detectRetina: true});
 
 // 2. Add a base map.
-    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(mymap);
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(mymap);
 
 // 3. Add airports GeoJSON Data
 var cellAirports = null; // Null variable that will hold cell tower data
@@ -24,18 +24,19 @@ cellAirports= L.geoJson.ajax("assets/cell_airports.geojson", {
     // assign a function to the onEachFeature parameter of the cellAirports object.
     // Then each (point) feature will bind a popup window.
     // The content of the popup window is the value of `feature.CNTL_TWR`
-for (i = 0; i < 9; i++) {
+    for (i = 0; i < 9; i++) {
     $('head').append($("<style> .marker-color-" + (i + 1).toString() + " { color: " + colors[i] + "; font-size: 15px; text-shadow: 0 0 3px #ffffff;} </style>"));
-                        }
+}
 
-    onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.CNTL_TWR);
-    },
-    pointToLayer: function (feature, latlng) {
-        var id =
-    },
-    attribution: 'Airport Data &copy; Map Cruzin | US States &copy; Mike Bostock of D3 | Base Map &copy; CartoDB | Made By Aradia Famer' // can i put this somewhere else, where it makes sense?
-}).addTo(mymap);
+onEachFeature: function (feature, layer) {
+    layer.bindPopup(feature.CNTL_TWR);
+},
+pointToLayer: function (feature, latlng) {
+    var id =
+},
+attribution: 'Airport Data &copy; Map Cruzin | US States &copy; Mike Bostock of D3 | Base Map &copy; CartoDB | Made By Aradia Famer' }).addTo(mymap);
+// can i put this somewhere else, where it makes sense?
+
 
 
 // 6. Set function for color ramp
