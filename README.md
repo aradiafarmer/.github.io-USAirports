@@ -23,5 +23,5 @@ Credits and acknowledgements: ......
 <li>
 <li>
 <li> like obviously, VCS commit & push, may need to log
-in several times to initialize connection
+in several times to initialize connection 
 </ul>
