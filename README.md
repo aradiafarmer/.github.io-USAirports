@@ -16,6 +16,9 @@ Credits and acknowledgements: ......
 <li>how do i use the airports.html vs index.html
 <li>how much do i write in main.js vs airports.html
 <li> how do i update my github w/o having to drag&drop each file individually?
+<br>---^answered^----
+<li> what is the classing scheme/style i am using for airports?
+<li> what is the "mode" in the colors code?
 </ul>
 
 ### answers
