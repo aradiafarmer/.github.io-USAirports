@@ -22,6 +22,6 @@ Credits and acknowledgements: ......
 <ul>
 <li>
 <li>
-<li> like obviously: VCS commit & push > push (may need to log
+<li> VCS commit & push > push (may need to log
 in several times to initialize connection) 
 </ul>
