@@ -20,8 +20,17 @@ Credits and acknowledgements: ......
 
 ### answers
 <ul>
-<li>
-<li>
+<li>index is the key, don't need the other at all!
+<li> russian nesting doll idea was correct, just need to be
+very precise about the file path
 <li> VCS commit & push > push (may need to log
 in several times to initialize connection) 
 </ul>
+
+### debugging tips
+<ul>
+<li> alert(celltower)
+<li> console.log(celltower)
+these will bring up alerts or consols with how this variable is looking in code in browser
+<li> change one variable at a time, see how it works
+<li>
