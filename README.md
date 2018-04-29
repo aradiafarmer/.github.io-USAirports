@@ -12,6 +12,7 @@ a legend, scale bar, and clickable marker that displays the airports' name.
 <li>Leaflet
 <li>FontAwesome
 <li>MapCruzin
+<li>ColorBrewer
 <li>airports.geojson
 <li>us-states.geojson
 </ol>
