@@ -3,37 +3,22 @@
 >
 >**Student:** Aradia Farmer | **Instructor:** Bo Zhao | **Due date:** 5/1/2018
 
-The purpose of this exercise is to create an interactive webmap of US airports that shows their location, if they have an air traffic control tower, and has a marker function.
+The purpose of this exercise is to create an interactive webmap of US airports that shows
+their location and if they have an air traffic control tower. Other features include
+a legend, scale bar, and clickable marker that displays the airports' name.
 
-Libraries and data sources used are: .....
+## Libraries and data sources used
+<ol>
+<li>Leaflet
+<li>FontAwesome
+<li>MapCruzin
+<li>airports.geojson
+<li>us-states.geojson
+</ol>
 
-Credits and acknowledgements: ......
-
-
-
-### questions
+## Credits and acknowledgements
 <ul>
-<li>how do i use the airports.html vs index.html
-<li>how much do i write in main.js vs airports.html
-<li> how do i update my github w/o having to drag&drop each file individually?
-<br>---^answered^----
-<li> what is the classing scheme/style i am using for airports?
-<li> what is the "mode" in the colors code?
+<li>Mike Bostock of D3 for datasets
+<li>Bo Zhao for coding templete and technical support
 </ul>
 
-### answers
-<ul>
-<li>index is the key, don't need the other at all!
-<li> russian nesting doll idea was correct, just need to be
-very precise about the file path
-<li> VCS commit & push > push (may need to log
-in several times to initialize connection) 
-</ul>
-
-### debugging tips
-<ul>
-<li> alert(celltower)
-<li> console.log(celltower)
-these will bring up alerts or consols with how this variable is looking in code in browser
-<li> change one variable at a time, see how it works
-<li>
