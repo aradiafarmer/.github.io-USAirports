@@ -22,7 +22,7 @@ airports= L.geoJson.ajax("assets/airports.geojson",{
         var id = 0;
         if (feature.properties.CNTL_TWR == "N") { id = 0; }
         else  { id = 1; }
-        return L.marker(latlng, {icon: L.divIcon({class="fas fa-plane" marker-color-' + (id + 1).toString() })});
+        return L.marker(latlng, {icon: L.divIcon({className:'fa fa-plane marker-color-' + (id + 1).toString() })});
     },
     attribution: 'Airports Data &copy; Mike Bostock | US States &copy; Mike Bostock | Base Map &copy; CartoDB | Made By Aradia Farmer'
 });
@@ -64,8 +64,8 @@ legend.onAdd = function () {
     div.innerHTML += '<i style="background: ' + colors[1] + '; opacity: 0.5"></i><p> 5-9</p>';
     div.innerHTML += '<i style="background: ' + colors[0] + '; opacity: 0.5"></i><p> 0- 4</p>';
     div.innerHTML += '<hr><b>Air Traffic Control Tower<b><br />';
-    div.innerHTML += '<i class="fa fa-wifi marker-color-1"></i><p>N</p>';
-    div.innerHTML += '<i class="fa fa-wifi marker-color-2"></i><p>Y</p>';
+    div.innerHTML += '<i class="fa fa-plane marker-color-1"></i><p>N</p>';
+    div.innerHTML += '<i class="fa fa-plane marker-color-2"></i><p>Y</p>';
     return div;
 };
 // 11. Add a legend to map
