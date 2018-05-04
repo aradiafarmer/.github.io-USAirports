@@ -22,7 +22,7 @@ airports= L.geoJson.ajax("assets/airports.geojson",{
         var id = 0;
         if (feature.properties.CNTL_TWR == "N") { id = 0; }
         else  { id = 1; }
-        return L.marker(latlng, {icon: L.divIcon({className: 'fa fa-wifi marker-color-' + (id + 1).toString() })});
+        return L.marker(latlng, {icon: L.divIcon({className: 'fas fa-plane marker-color-' + (id + 1).toString() })});
     },
     attribution: 'Airports Data &copy; Mike Bostock | US States &copy; Mike Bostock | Base Map &copy; CartoDB | Made By Aradia Farmer'
 });
